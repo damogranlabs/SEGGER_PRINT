@@ -15,6 +15,6 @@ void printNumberLn(int32_t number, uint8_t base);	//send/print SINGED/UNSIGNED n
 void printFloatLn(double number);
 void printLn(void);	//print new line and carriage return
 
-//send raw data, any type.
+//send raw data
 void writeData(void *data, uint8_t dataSize);
 
